@@ -3,17 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { FirstComponent } from './components';
-import { SecondComponent } from './components/SecondComponent/SecondComponent';
+import {ProductTable} from './components';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
-   <FirstComponent/>
-   <SecondComponent />
+    {/* <App /> */}
+   {/* <FirstComponent/>
+   <SecondComponent /> */}
+   <ProductTable/>
+
   </React.StrictMode>
 );
 
